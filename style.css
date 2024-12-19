@@ -1,0 +1,1470 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(223, 228, 252);
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 0 0 5px 0;
+    padding-top: 5px;
+}
+
+.nav-top,
+.nav-down {
+    width: 96%;
+    height: auto;
+    display: flex;
+    margin: 0 0 5px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-top-left {
+    width: 100px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+.nav-top-right {
+    margin: 0 0 5px 0;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-top-icon {
+    background-color: rgb(223, 228, 252);
+    border-radius: 50%;
+}
+
+.nav-icon a {
+    color: rgb(78, 76, 76);
+}
+
+.nav-icon-active a {
+    color: blue;
+}
+
+.nav-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-down {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0 0 5px 0;
+}
+
+/* profile section  */
+
+.profile-section,
+.story-section,
+.post,
+.people-know {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    padding: 10px 0;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.profile-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.textarea {
+    width: 65%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(223, 228, 252);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.textarea input {
+    border: none;
+    list-style: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.photo-icon {
+    color: green;
+    font-size: 16px;
+}
+
+.photo-section p {
+    font-size: 12px;
+}
+
+/* story section  */
+
+.people-story-main {
+    display: flex;
+    align-items: center;
+    width: 96%;
+    margin: auto;
+    height: auto;
+    gap: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    cursor: pointer;
+}
+
+.mainstory,
+.people-story {
+    min-width: 100px;
+    width: 30%;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-story-pic {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+
+.story-plus-icon {
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 80px;
+    color: white;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 4px solid rgb(223, 228, 252);
+    position: absolute;
+}
+
+.main-story-text-div {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(223, 228, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+}
+
+.people-story-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    overflow: hidden;
+}
+
+.people-story-name {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+/* post section  */
+.post-top {
+    width: 96%;
+    height: auto;
+    margin-top: 5px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.post-profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.post-name {
+    width: 65%;
+    height: auto;
+}
+
+.post-name {
+    font-size: 12px;
+    color: rgb(117, 110, 110);
+
+}
+
+.post-name-top {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.post-text {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.post-pic {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.like-top {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+}
+
+.like-section {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like {
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 228, 252);
+    border-radius: 10px;
+    gap: 10px;
+
+}
+
+/* people section  */
+
+.people-know-top {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    font-size: 14px;
+    color: rgb(84, 82, 82);
+}
+
+.people-know-main {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.people-know-section {
+    width: 30%;
+    min-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;flex-direction: column;
+}
+.people-know-section-top{
+    width: 100%;
+    height: auto;
+}
+.people-know-section-top{
+    width: 100%;
+    height: auto;
+}
+.people-know-pic {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+.people-know-Name {
+    width: 96%;
+    height: 25px;
+    margin: 5px auto;
+    color: black;
+    font-weight: 600;
+}
+
+.add {
+    width: 94%;
+    height: auto;
+    border: 1px solid rgb(101, 99, 99);
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-weight: 600;
+    position: relative;
+}
+
+.plus {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 6px;
+    font-size: 10px;
+    left: 58px;
+}
+
+.see-all {
+    width: 96%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see-all p a{
+    text-decoration: none;
+    color: rgb(86, 83, 83);
+}
+/* friends page  */
+.friend-main {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    background-color: white;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.f-top {
+    width: 96%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+}
+
+.f-top1 {
+    width: 80%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sugest-div-main {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+
+}
+
+.sugest-div {
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    background-color: rgb(223, 228, 252);
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.all-frnd-main {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-frnd-main p {
+    color: blue;
+}
+
+.all-frnd {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.friend-main-reguest {
+    width: 96%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.friend-main-reguest-left {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.friend-main-reguest-right {
+    height: auto;
+    width: 70%;
+}
+
+.request-name-text-top p {
+    font-size: 12px;
+    color: rgb(114, 110, 110);
+}
+
+.request-name-text-top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rname-text {
+    font-weight: 600;
+}
+
+.request-name-text-down {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text-down-div {
+    width: 44%;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(223, 228, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.text-down-div1 {
+    background-color: blue;
+    color: white;
+}
+
+.hr {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+}
+
+/* video page  */
+.v-top-main {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 5px 0;
+}
+
+.video-top {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.v-top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.v-text {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.v-icon {
+    width: auto;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.v-down {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.v-text2 {
+    width: 75%;
+    height: auto;
+    font-size: 14px;
+    color: rgb(90, 88, 88);
+}
+
+.v-nav-main {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.v-nav {
+    width: 96%;
+    height: auto;
+    background-color: white;
+    margin: 5px auto;
+    padding: 5px 0;
+    overflow: hidden;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    gap: 10px;
+    scrollbar-width: none;
+}
+
+.v-icon-main {
+    margin: 10px 0;
+    width: auto;
+    min-width: 150px;
+    height: auto;
+    padding: 5px;
+    gap: 5px;
+    background-color: rgb(223, 228, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.v-icon-main1 {
+    color: white;
+    background-color: rgb(32, 32, 255);
+}
+
+.post-pic-v {
+    height: auto;
+    width: 100%;
+    /* background-color: red; */
+}
+
+/* notification page  */
+.mark {
+    width: 96%;
+    height: auto;
+    background-color: white;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+}
+
+.n-main {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.early {
+    font-size: 14px;
+    font-weight: 600;
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.notification-div2 {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.notification-left2 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.notification-right2 {
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nright-text {
+    width: 90%;
+    height: auto;
+
+}
+
+.ntop-text {
+    font-size: 14px;
+    color: rgb(73, 72, 72);
+}
+
+.ncenter-text {
+    font-weight: 600;
+}
+
+.ndown-text {
+    font-size: 12px;
+    color: rgb(98, 95, 95);
+}
+
+/* profile page start  */
+
+.p-nav {
+    width: 100%;
+    width: auto;
+}
+
+.p-nav2 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    padding: 5px 0;
+    box-shadow: 0 0 10px black;
+}
+
+.p-nav p {
+    font-weight: 600;
+}
+
+.p-back a {
+    color: black;
+}
+
+.p-back {
+    margin-left: 10px;
+}
+
+.profile-top {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: relative;
+    margin-top: 32px;
+    padding-bottom: 5px;
+}
+
+.cover-pic {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+
+.profile-pic-div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.profile-camera {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(223, 228, 252);
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid white;
+    right: 0px;
+    bottom: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-text-main {
+    width: 96%;
+    height: auto;
+    margin: 60px auto 0 auto;
+}
+
+.profile-text-main p {
+    font-size: 14px;
+}
+
+.profile-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-more {
+    width: 96%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.add-to-story {
+    width: auto;
+    height: auto;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: rgb(223, 228, 252);
+}
+
+.add-to-story1 {
+    background-color: blue;
+    color: white;
+}
+
+.see-profile {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+.profile-friends {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-friends-left {
+    font-weight: 600;
+}
+
+.profile-friends-right {
+    color: blue;
+}
+
+.profile-section2-main {
+    background-color: white;
+}
+
+.photo-text {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 5px;
+
+}
+
+.photo-text1 {
+    border-left: 1px solid rgb(116, 112, 112);
+    border-right: 1px solid rgb(116, 112, 112);
+}
+
+.profile-section2 {
+    width: 96%;
+    height: auto;
+    margin: auto;
+    font-size: 14px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.check-icon {
+    color: rgb(233, 29, 63);
+}
+
+.check-life {
+    color: rgb(214, 14, 214);
+}
+
+.date {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.date-icon-main {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.date-icon {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: blue;
+    color: white;
+}
+
+.date-top {
+    font-weight: 600;
+}
+
+.date p {
+    color: rgb(115, 111, 111);
+    margin: 5px 0;
+}
+
+/* pages section  */
+.pa-nav {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 0 0 5px 0;
+    padding: 5px 0;
+}
+
+.pa-nav2 {
+    width: 96%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.pa-nav p {
+    font-weight: 600;
+}
+
+.page-main {
+    width: 100%;
+    height: 85vh;
+    background-color: white;
+}
+
+/* saced page  */
+.saved-main {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* memory page  */
+.memory-main {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+/* events page  */
+.upcome-event p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.upcome-event {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.upcomig-event {
+    font-weight: 600;
+}
+
+/* game section page  */
+.game-main {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 5px 0;
+}
+
+.game-section {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.game-left {
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+.game-right {
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.game-text {
+    font-weight: 600;
+}
+
+.game-div {
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    background-color: rgb(223, 228, 252);
+    font-weight: 600;
+    border-radius: 5px;
+}
+ /* add manager page  */
+ .ad-open{
+    width: 90%;
+    height: auto;
+    background-color: rgb(6, 6, 174);
+    color: white;
+    font-weight: 600;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+ }
+body {
+    background-color: rgb(223, 228, 252);
+}
+
+/* massenger section  */
+.massenger-nav {
+    width: 100%;
+    height: auto;
+    margin: 0 0 5px 0;
+    background-color: blue;
+    color: white;
+}
+
+.m-nav-iteam {
+    width: 96%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.m-nav-iteam p a {
+    color: white;
+}
+
+.massenger-main {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+}
+
+.massenger-div p {
+    color: rgb(115, 110, 110);
+}
+
+.massenger-div {
+    width: 86%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.massenger-icon {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    color: blue;
+}
+
+.massenger-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.get-massenger {
+    width: 96%;
+    height: auto;
+    margin: 5px auto;
+    background-color: rgb(10, 10, 180);
+    color: white;
+    font-weight: 600;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+/* m-menu srction  */
+.m-menu {
+    width: 100%;
+    height: auto;
+    background-color: rgb(223, 228, 252);
+}
+
+.m-menu-main {
+    width: 96%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(223, 228, 252);
+}
+
+.m-menu-header {
+    width: 100%;
+    margin: 10px 0;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.m-back a {
+    color: black;
+    font-size: 18px;
+}
+
+.m-back {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.m-menu-text {
+    font-weight: 600;
+    width: 80%;
+}
+
+.m-searcch-icon {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(201, 202, 202);
+
+}
+
+.m-profile-div {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.m-menu-name {
+    width: 80%;
+    height: auto;
+}
+
+.m-menu-name p {
+    font-size: 12px;
+}
+
+.m-menu-profile {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.m-more-div {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.m-main-div-icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-more-div-main {
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.m-more-div-main a{
+    text-decoration: none;
+    color: black;
+}
+.hit {
+    width: 100%;
+    height: 300px;
+}
+
+.m-setting,
+.m-help,
+.also {
+    width: 100%;
+    height: auto;
+}
+
+.m-privacy {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.m-privacy-text {
+    width: 80%;
+}
+
+.setting-toggle {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+
+.setting-toggle-height {
+    max-height: 500px;
+}
+
+.help-toggle,
+.also-toggle, .creator-toggle {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+
+.help-toggle-height {
+    max-height: 500px;
+}
+
+.setting-toggle-setting,
+.help-toggle-help {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+.help-toggle-help a{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+.m-main-div-icon-reel {
+    color: rgb(235, 88, 112);
+}
+
+.m-main-div-icon-massages {
+    color: rgb(29, 52, 205);
+}
+
+.m-main-div-icon-group {
+    color: rgb(29, 52, 205);
+}
+
+.m-main-div-icon-friends {
+    color: rgb(29, 52, 205);
+}
+
+.m-main-div-icon-video {
+    color: rgb(13, 74, 39);
+}
+
+.m-main-div-icon-page {
+    color: rgb(216, 79, 16);
+}
+
+.m-main-div-icon-saved {
+    color: rgb(176, 16, 216);
+}
+
+.m-main-div-icon-memory {
+    color: rgb(29, 16, 216);
+}
+
+.m-main-div-icon-game {
+    color: rgb(29, 16, 216);
+}
+
+.m-main-div-icon-events {
+    color: rgb(235, 4, 4);
+}
+
+.m-main-div-icon-fgame {
+    color: rgb(231, 255, 16);
+}
+
+.m-main-div-icon-ads {
+    color: rgb(14, 223, 3);
+}
+
+.m-main-div-icon-feed {
+    color: rgb(223, 95, 3);
+}
+footer{
+    margin: 10PX 0;
+    padding: 10PX 0;
+    text-align: center;
+    font-size: 12PX;
+    
+}
+
+/* images  section is start frome here  */
+.profile-pic{
+    background-image: url(img/profile.jpg);
+    background-size: cover;
+}
+.post-profile{
+    background-image: url(img/profile.jpg);
+    background-size: cover;
+}
+.post-profile2{
+    background-image: url(img/rk-creation.png);
+}
+.main-story-pic{
+    background-image: url(img/profile.jpg);
+    background-size: cover;
+}
+.post-profile-v1{
+    background-image: url(img/pr1.jpeg);
+    background-size: cover;
+}
+.post-profile-v2{
+    background-image: url(img/pr2.webp);
+    background-size: cover;
+}
+.post-profile-v3{
+    background-image: url(img/pr3.webp);
+    background-size: cover;
+}
+.g-post-profile-1{
+    background-image: url(img/pr2.webp);
+}
+.g-post-profile-2{
+    background-image: url(img/pr3.webp);
+}
+.people-story1{
+    background-image: url(img/img.jpg);
+    background-size: cover;
+}
+.people-story2{
+    background-image: url(img/img10.webp);
+    background-size: cover;
+}
+.people-story3{
+    background-image: url(img/img11.webp);
+    background-size: cover;
+}
+.people-story4{
+    background-image: url(img/img8.jpeg);
+    background-size: cover;
+}
+.people-story5{
+    background-image: url(img/img9.jpg);
+    background-size: cover;
+}
+.people-story6{
+    background-image: url(img/im7.jpeg);
+    background-size: cover;
+}
+.people-know-pic1{
+    background-image: url(img/chhota\ bheem.jpg);
+    background-size: cover;
+}
+.people-know-pic2{
+    background-image: url(img/mottu\ patlu.jpg);
+    background-size: cover;
+}
+.people-know-pic3{
+    background-image: url(img/chutki+.jpg);
+    background-size: cover;
+}
+.people-know-pic4{
+    background-image: url(img/ghadita\ ram..jpg);
+    background-size: cover;
+}
+.people-know-pic5{
+    background-image: url(img/chrono.jpg);
+    background-size: cover;
+}
+.request1{
+    background-image: url(img/chota\ bheem\ team.jpg);
+    background-size: cover;
+}
+.request2{
+    background-image: url(img/chhota\ bheem.jpg);
+    background-size: cover;
+}
+.request3{
+    background-image: url(img/mottu.jpg);
+    background-size: cover;
+}
+.request4{
+    background-image: url(img/mottu\ patlu.jpg);
+    background-size: cover;
+}
+.request5{
+    background-image: url(img/mottu\ patlu\ team.jpg);
+    background-size: cover;
+}
+.request6{
+    background-image: url(img/chrono.jpg);
+    background-size: cover;
+}
+.request7{
+    background-image: url(img/john.jpg);
+    background-size: cover;
+}
+.request8{
+    background-image: url(img/maro.jpg);
+    background-size: cover;
+}
+.request9{
+    background-image: url(img/dr.\ jhatka.png);
+    background-size: cover;
+}
+.request10{
+    background-image: url(img/ghadita\ ram..jpg);
+    background-size: cover;
+}
+.request11{
+    background-image: url(img/im7.jpeg);
+    background-size: cover;
+}
